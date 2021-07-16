@@ -1,0 +1,41 @@
+.shop{
+    width: 15%;
+    height: 15px;
+    padding-top: 15% ;
+}
+.product{
+    width: 100%;
+    height: 300px;
+}
+.my{
+    width: 20%;
+    height: 20px;
+    margin-right: 40px;
+}
+.headset{
+    width: 35%;
+    height: 60px;
+}
+.trash{
+    width: 25%;
+    height: 25px;
+    margin-top: 5px;
+}
+.me{
+    width: 20%;
+    height: 20px;
+    margin-right: 10px;
+}
+.see{
+    width: 20%;
+    height: 20px;
+    padding-top: 20px;
+}
+.tel{
+    width: 20%;
+    height: 20px;
+}
+.mil{
+    width: 20%;
+    height: 20px;
+}

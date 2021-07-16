@@ -1,0 +1,91 @@
+.blessing{
+    top: 0;
+    left: 0;
+    position: fixed;
+    width: 100%;
+    height: 100vh;
+    display: flex;
+    justify-content: flex-end;
+    opacity: 0;
+    pointer-events: none;
+    transition: opacity 0.5s ease;
+}
+.blessing.show{
+    opacity: 1;
+    pointer-events: fill;
+}
+/****a
+.body{
+    width: 100%;
+    height: 100%;
+    padding: 0%;
+    margin: 0%;
+}****/
+.chart{
+    display: flex;
+    flex-direction: column;
+    width: 30%;
+    height: 100vh;
+    padding: 20px;
+    background-color: white;
+}
+.bee{
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+.fee{
+    width: 100%;
+    margin-top: 2%;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+.pee{
+    display: flex;
+    flex-direction: row;
+    gap: 5px;
+}
+.nee{
+    padding-top: 10px;
+}
+.adds{
+    display: flex;
+    flex-direction: row;
+    gap: 5px;
+    margin-top: 2%;
+}
+.plus{
+    width: 220px;
+    height: 35px;
+    border-radius: 100px;
+    margin-right: 10px;
+    margin-left: 37%;
+    background-color: whitesmoke;
+}
+.check{
+    position: absolute;
+    bottom: 0px;
+    padding: 15px;
+}
+.keep{
+    position: absolute;
+    bottom: 0px;
+    right: 0;
+    padding: 20px;
+}
+#keep-shop{
+    padding: 13px;
+    background-color: whitesmoke;
+    color: black;
+    border-radius: 10px;
+    border: none;
+}
+#checkout{
+    padding: 10px;
+    background-color: black;
+    color: white;
+    border: none;
+    border-radius: 10px;
+}
